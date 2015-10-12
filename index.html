@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Raffler Coming Soon</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <div class="page-wrap">
+      <div class="row">
+        <div class="row-height-introducing">
+          <div class="col-md-12">
+            <h2 class="introducing animated opacity-0">Introducing</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-height-big-logo">
+          <div class="col-md-12">
+            <img class="big-logo animated opacity-0"src="images/big-icon.png" alt="raffler">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-height-content">
+          <div class="col-md-6 left">
+            <div class="col-md-offset-2 col-md-8 col-xs-12 col-xs-offset-0 animated opacity-0 logo" id="text-construction-2">
+
+              <!-- LOGO -->
+              <img src="images/raffler-icon.png" />
+
+            </div>
+            <!-- START NEWSLETTER -->  
+            <div id="subscribe" class="animated opacity-0">
+
+              <div class="col-md-12 col-md-offset-0 col-xs-12 col-xs-offset-0 paragraph">
+                <div class="justify">
+
+                  <p>
+                    We’re creating an extraordinary new app that will give away at least <strong>£1,000</strong> a day. You’ll be able to enter just by watching two commercials, the commercials will pay for the prizes. As up to 90% of the money Raffler earns will be given away, the more people who play, the larger the future prizes will be. Free App, Free Play, <strong>£1,000's</strong> Every Day.
+                  </p>
+                  <p class="bold">
+                    <span class="winner">Will you be our first WINNER?</span> Launching Late October 2015.
+                  </p>
+
+
+
+
+                </div>
+
+                <h3>Become a founding member</h3>
+
+                <!-- START NEWSLETTER FORM -->            
+                <form action="php/notify-me.php" id="notifyMe" method="POST">
+
+                  <div class="form-group">
+                    <div class="controls">
+                      <input type="text" id="mail-sub" name="email" placeholder="Your email address..." class="form-control email srequiredField">
+                      <button class="btn btn-lg submit"><i class="fa fa-angle-right fa-2x"></i></button>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+                </form>
+                <!-- END NEWSLETTER FORM -->
+                <div class="fb-like" data-href="https://www.facebook.com/ghattrell?fref=ts" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="dark"></div>
+              </div>
+
+            </div>
+            <!-- END NEWSLETTER -->
+          </div>
+          <div class="col-md-6 right">
+            <img class="iphone animated opacity-0" src="images/raffler_iphone.png" alt="raffler">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="row">
+    <div class="row-height">
+      <div class="footer animated opacity-0">
+    <a href="mailto:info@raffler.co">info@raffler.co</a>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+  <!-- ============ Javascript ============ -->
+  <div id="fb-root"></div>
+  <script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1591033071116948";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easings.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="js/jquery.swipebox.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+  <script type="text/javascript" src="js/notifyMe.js"></script>
+  <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+
+  <script type="text/javascript" src="js/mumm.js"></script>
+
+  <script>
+  ;( function( $ ) {
+    "use strict";
+
+    $( '.swipebox' ).swipebox();
+
+  } )( jQuery );
+  </script>
+
+  <script>
+  jQuery(document).ready(function() {
+    "use strict";
+    $("#notifyMe").notifyMe();
+  });
+  </script>
+
+  <script>
+          //Used for the placeholder on IE9
+          $('input, textarea').placeholder();
+          </script>
+        </body>
+        </html>
