@@ -497,6 +497,10 @@ form.bad-email .fa, form.bad-email .message {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
 
+  body{
+    font-size: 20px
+  }
+
   .big-logo{
     width: 360px;
   }
@@ -520,11 +524,11 @@ form.bad-email .fa, form.bad-email .message {
   .iphone{
     object-fit: contain;
     width: 100%; 
-    margin-top: 10%;
+    margin-top: 2.5%;
   }
 
   .footer{
-    margin-top: 20%;
+    margin-top: 5%;
   }
 }
     
