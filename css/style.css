@@ -485,6 +485,11 @@ form.bad-email .fa, form.bad-email .message {
    .paragraph {
      padding-top: 5%;
    }
+
+   .iphone{
+     object-fit: contain;
+     width: 100%; 
+   }
 }
 
 
@@ -503,6 +508,11 @@ form.bad-email .fa, form.bad-email .message {
   .paragraph {
     padding-top: 5%;
   }
+
+  .iphone{
+    object-fit: contain;
+    width: 100%; 
+  }
 }
     
 /* *=*=*=*=*=*=*=*=*=* Phone landscape *=*=*=*=*=*=*=*=*=* */
@@ -519,6 +529,11 @@ form.bad-email .fa, form.bad-email .message {
 
     .paragraph {
       padding-top: 5%;
+    }
+
+    .iphone{
+      object-fit: contain;
+      width: 100%; 
     }
 }
 
