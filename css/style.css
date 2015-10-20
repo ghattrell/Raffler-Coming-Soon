@@ -367,6 +367,33 @@ form.bad-email .fa, form.bad-email .message {
 
  @media only screen and (min-width : 1824px) {
 
+  body{
+    font-size: 20px;
+  }
+
+  .big-logo{
+    width: 300px;
+  }
+
+  #text-construction-2 img {
+    margin-top: 40%; 
+  }
+
+  #subscribe .form-control{
+    height: 50px;
+  }
+
+  #subscribe button.submit {
+    height: 50px;
+  }
+
+  #subscribe h3{
+    font-size: 25px;
+  }
+
+  .form-control {
+    font-size: 16px;
+  }
  }
 
 /* *=*=*=*=*=*=*=*=*=* Small screen *=*=*=*=*=*=*=*=*=* */
