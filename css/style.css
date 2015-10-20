@@ -13,6 +13,8 @@
 /* ::::::::::: 1. Global ::::::::::: */
 /* ================================= */
 
+
+
 .margin-left-3pc{
   margin-left: 3.3%;
 }
@@ -338,7 +340,8 @@ form.bad-email .fa, form.bad-email .message {
    ============================== */
 
 .footer {
-  margin-top: 2%;
+  margin-top: 1%;
+  margin-bottom: 3%
 }
 
 .footer a{
@@ -359,6 +362,12 @@ form.bad-email .fa, form.bad-email .message {
 /* ================================= */
 /* ::::::: 8. Media Queries :::::::: */
 /* ================================= */
+
+/* *=*=*=*=*=*=*=*=*=* Large screen *=*=*=*=*=*=*=*=*=* */
+
+ @media only screen and (min-width : 1824px) {
+
+ }
 
 /* *=*=*=*=*=*=*=*=*=* Small screen *=*=*=*=*=*=*=*=*=* */
     
@@ -385,91 +394,46 @@ form.bad-email .fa, form.bad-email .message {
     
 
     
-    #subscribe {
-      position: absolute;
-      bottom: 5%;
-      right: 25%;
-      z-index: 999;
-      width: 150%;
-      top: auto;
-    }
-    
-    #informations-contact {
-      position: absolute;
-      bottom: 5%;
-      right: 50%;
-      z-index: 999;
-      width: 100%;
-      top: auto;
-    }
+   .logo{
+    display: none;
+  }
+
+  .fb-like{
+    text-align: left;
+  }
+
+  .paragraph {
+    padding-top: 5%;
+  }
+
+  .iphone{
+     object-fit: contain;
+     width: 100%; 
+   }
+
+   .footer {
+    margin-bottom: 3%;
+   }
 }
 
 @media only screen and (max-width: 568px) {
 
-    #subscribe .form-control {
-      width: 100%;
-      border: 1px solid #F8F8F8;
-      border-radius: 0px;
-      margin-bottom: 10px;
-      color: #333;
-    }
-    
-    #subscribe input#mail-sub {
-      width: 80%;
-      float: left;
-      color: #FFF;
-    }
-    
-    #subscribe button.submit {
-      border-radius: 0px;
-      color: #FFFFFF;
-      font-size: 12px;
-      line-height: 10px;
-      padding: 0px;
-      height: 42px;
-      transition: all 0.3s ease-in-out 0s;
-      width: 20%;
-      float: left;
-      margin-left: 0;
-      margin-top: 0;
-    }
-    
-    .digit {
-      font-size: 50px;
-      height: 60px;
-      line-height: 60px;
-    }
-    
-    #text-construction-2 {
-      font-size: 12px;
-    }
-    
-    #principal-carousel {
-      width: 150%;
-      right: 25%;
-      max-width: none;
-    }
-    
-    #contact-form h4 {
-      margin-bottom: 0;
-      font-size: 14px;
-    }
-    
-    #formcontactus {
-      margin-top: 10px;
-    }
-    
-    #formcontactus .specsend {
-      margin-top: 10px;
-    }
-    
-    span.border {
-      display: none;
-    }
-    
-    #informations-contact h2 {
-      font-size: 20px;
-    }
+    .logo{
+    display: none;
+  }
+
+  .fb-like{
+    text-align: left;
+  }
+
+  .paragraph {
+    padding-top: 5%;
+  }
+
+  .iphone{
+     object-fit: contain;
+     width: 100%; 
+   }
 }
 
 /* *=*=*=*=*=*=*=*=*=* Tablet portrait *=*=*=*=*=*=*=*=*=* */
