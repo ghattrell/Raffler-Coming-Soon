@@ -358,6 +358,98 @@ form.bad-email .fa, form.bad-email .message {
     color: #00CCCC;
 }
 
+/* ==============================
+   Loading
+   ============================== */
+.globload {
+  background: black;
+ /* background: -moz-radial-gradient(center, ellipse cover, #3b405b 0%, #171b33 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #3b405b), color-stop(100%, #171b33));
+  background: -webkit-radial-gradient(center, ellipse cover, #3b405b 0%, #171b33 100%);
+  background: -o-radial-gradient(center, ellipse cover, #3b405b 0%, #171b33 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #3b405b 0%, #171b33 100%);
+  background: radial-gradient(ellipse at center, #3b405b 0%, #171b33 100%);*/
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100000;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.globload img {
+  display: block;
+  margin: auto;
+}
+
+.spinner {
+  font-size: 10px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.spinner > div {
+  width: 12px;
+  height: 12px;
+  background-color: #f1e7c0;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes 
+bouncedelay {
+  0%, 80%, 100% {
+  -webkit-transform: scale(0.0)
+  }
+  40% {
+  -webkit-transform: scale(1.0)
+  }
+}
+
+@keyframes 
+bouncedelay {
+   0%, 80%, 100% {
+   transform: scale(0.0);
+   -webkit-transform: scale(0.0);
+  }
+   40% {
+   transform: scale(1.0);
+   -webkit-transform: scale(1.0);
+  }
+}
+
+.spinner h6 {
+  font-family: 'Lucida Grande', Lato, 'Helvetica Neue', Arial, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #FFF
+}
+
+
 
 /* ================================= */
 /* ::::::: 8. Media Queries :::::::: */

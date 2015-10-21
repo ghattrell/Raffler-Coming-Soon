@@ -21,7 +21,7 @@
 $(window).load(function() {
 	"use strict";
 	
-	$('.globload').fadeOut("slow")
+	$('.globload').fadeOut(4000)
 	
 	setTimeout(function() {
 		
@@ -58,37 +58,37 @@ $(window).load(function() {
 		
 		$("#subscribe").addClass("fadeIn").removeClass("opacity-0");
 		
-	}, 2400);
+	}, 5400);
 
 	setTimeout(function() {
 
 		$(".iphone").addClass("fadeIn").removeClass("opacity-0");
 		
-	}, 1800);
+	}, 4800);
 
 	setTimeout(function() {
 		
 		$(".introducing").addClass("fadeIn").removeClass("opacity-0");
 		
-	}, 600);
+	}, 3600);
 
 	setTimeout(function() {
 		
 		$(".big-logo").addClass("fadeIn").removeClass("opacity-0");
 		
-	}, 1200);
+	}, 4200);
 
 	setTimeout(function() {
 		
 		$(".logo").addClass("fadeIn").removeClass("opacity-0");
 		
-	}, 1800);
+	}, 4800);
 
 	setTimeout(function() {
 		
 		$(".footer").addClass("fadeIn").removeClass("opacity-0");
 		
-	}, 3000);
+	}, 6000);
 		
 });
 
