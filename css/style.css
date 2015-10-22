@@ -463,6 +463,10 @@ bouncedelay {
     font-size: 20px;
   }
 
+  .margin-left-3pc{
+  margin-left: 2.3%;
+}
+
   .big-logo{
     width: 300px;
   }
@@ -582,6 +586,10 @@ bouncedelay {
   body{
     font-size: 40px
   }
+
+  .margin-left-3pc{
+  margin-left: 2.6%;
+}
 
   .big-logo{
     width: 100%;
