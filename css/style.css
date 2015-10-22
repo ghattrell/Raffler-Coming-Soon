@@ -588,6 +588,7 @@ bouncedelay {
   }
 
   .introducing{
+    padding-top: 10%;
     font-size: 1.8em;
   }
 
@@ -597,6 +598,11 @@ bouncedelay {
 
   .paragraph {
     padding-top: 18.5%;
+    font-size: 30PX
+  }
+
+  .bigger-text{ 
+    font-size: 40px;
   }
 
   .iphone{
