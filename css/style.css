@@ -598,7 +598,8 @@ bouncedelay {
 
   .paragraph {
     padding-top: 18.5%;
-    font-size: 30PX
+    font-size: 30px;
+    line-height: 2.2em;
   }
 
   .bigger-text{ 
