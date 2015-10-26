@@ -588,7 +588,7 @@ bouncedelay {
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
 
   body{
-    font-size: 44px
+    font-size: 40px
   }
 
   .bigger-text {
@@ -618,7 +618,7 @@ bouncedelay {
 
   .paragraph {
     padding-top: 18.5%;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 2.2em;
   }
 
