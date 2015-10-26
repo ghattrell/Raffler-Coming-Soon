@@ -13,7 +13,11 @@
 /* ::::::::::: 1. Global ::::::::::: */
 /* ================================= */
 
-
+.twitter-space {
+  position: relative;
+  width: 100%;
+  min-height: 6px; 
+}
 
 .margin-left-3pc{
   margin-left: 3.3%;
@@ -150,7 +154,7 @@ h4 {
 
 #text-construction-2 img {
   margin: auto;
-  margin-top: 25%;
+  margin-top: 30%;
   padding-bottom: 10px;
   height: 15%;
   width: 11%;
@@ -472,7 +476,7 @@ bouncedelay {
   }
 
   #text-construction-2 img {
-    margin-top: 40%; 
+    margin-top: 45%; 
   }
 
   #subscribe .form-control{
