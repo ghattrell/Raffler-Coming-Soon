@@ -588,7 +588,15 @@ bouncedelay {
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
 
   body{
-    font-size: 40px
+    font-size: 44px
+  }
+
+  .bigger-text {
+    text-align: left;
+  }
+
+  #subscribe h3 {
+    font-size: 35px
   }
 
   .margin-left-3pc{
@@ -601,7 +609,7 @@ bouncedelay {
 
   .introducing{
     padding-top: 10%;
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 
   .logo{
@@ -646,6 +654,18 @@ bouncedelay {
 
   .form-control {
     font-size: 33px;
+  }
+
+  .fb-like {
+    transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+  }
+
+  .twitter-space {
+    min-height: 0px
   }
 } 
     
