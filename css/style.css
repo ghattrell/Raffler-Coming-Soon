@@ -623,7 +623,7 @@ bouncedelay {
   }
 
   .bigger-text{ 
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .iphone{
@@ -666,6 +666,14 @@ bouncedelay {
 
   .twitter-space {
     min-height: 0px
+  }
+
+  .controls .fa-exclamation-circle {
+    margin-top: 22px;
+  }
+
+  .controls .fa {
+    margin-top: 25px;
   }
 } 
     
