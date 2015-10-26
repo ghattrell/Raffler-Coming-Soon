@@ -593,10 +593,11 @@ bouncedelay {
 
   .bigger-text {
     text-align: left;
+    font-size: 25px;
   }
 
   #subscribe h3 {
-    font-size: 35px
+    font-size: 25px
   }
 
   .margin-left-3pc{
@@ -620,10 +621,6 @@ bouncedelay {
     padding-top: 15.5%;
     font-size: 35px;
     line-height: 2.2em;
-  }
-
-  .bigger-text{ 
-    font-size: 32px;
   }
 
   .iphone{
