@@ -468,7 +468,7 @@ bouncedelay {
     font-size: 20px;
   }
 
-  .margin-left-3pc{
+  .margin-left-3pc {
   margin-left: 2.3%;
 }
 
@@ -637,14 +637,13 @@ bouncedelay {
   }
 
   .iphone{
-    width: 50%; 
+    width: 70%; 
     margin-top: 10.5%;
-    margin-bottom: 7%;
+    margin-bottom: 1%;
   }
 
   .footer{
-    margin-top: 4%;
-    margin-top: 1%;
+    padding-top: 1%;
   }
 
   .footer a{
