@@ -1,8 +1,9 @@
 @charset "utf-8";
 
 .iphone{
-  object-fit: contain;
-  width: 110%; 
+  width: 36%;
+  display: block;
+  margin: 0 auto; 
 }
 
 .align-center{
@@ -344,8 +345,7 @@ form.bad-email .fa, form.bad-email .message {
    ============================== */
 
 .footer {
-  margin-top: 1%;
-  margin-bottom: 3%
+  margin-top: 4%;
 }
 
 .footer a{
@@ -455,6 +455,7 @@ bouncedelay {
 
 
 
+
 /* ================================= */
 /* ::::::: 8. Media Queries :::::::: */
 /* ================================= */
@@ -494,16 +495,15 @@ bouncedelay {
   .form-control {
     font-size: 16px;
   }
+  .footer {
+    margin-top: 4%;
+   }
  }
 
 /* *=*=*=*=*=*=*=*=*=* Small screen *=*=*=*=*=*=*=*=*=* */
     
- @media only screen and (max-width: 1023px) {
+ @media only screen and (max-width: 1024px) {
 
-
-  .logo{
-    display: none;
-  }
 
   .fb-like{
     text-align: left;
@@ -512,6 +512,11 @@ bouncedelay {
   .paragraph {
     padding-top: 5%;
   }
+
+  .footer {
+    margin-top: 4%;
+    padding-top: 8%;
+   }
 
 }
 
@@ -530,12 +535,11 @@ bouncedelay {
   }
 
   .iphone{
-     object-fit: contain;
-     width: 100%; 
+     width: 50%; 
    }
 
    .footer {
-    margin-bottom: 3%;
+    margin-top: 4%;  
    }
 }
 
@@ -553,9 +557,13 @@ bouncedelay {
     padding-top: 5%;
   }
 
+  .footer {
+    margin-top: 4%;
+    margin-bottom: 1%;
+   }
+
   .iphone{
-     object-fit: contain;
-     width: 100%; 
+     width: 50%; 
    }
 }
 
@@ -578,7 +586,12 @@ bouncedelay {
 
    .iphone{
      object-fit: contain;
-     width: 100%; 
+     width: 50%; 
+   }
+
+   .footer {
+    margin-top: 4%;
+    margin-top: 1%;
    }
 }
 
@@ -624,13 +637,14 @@ bouncedelay {
   }
 
   .iphone{
-    object-fit: contain;
-    width: 100%; 
+    width: 50%; 
     margin-top: 10.5%;
+    margin-bottom: 7%;
   }
 
   .footer{
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-top: 1%;
   }
 
   .footer a{
@@ -691,9 +705,9 @@ bouncedelay {
     }
 
     .iphone{
-      object-fit: contain;
-      width: 100%; 
+      width: 50%; 
     }
+
 }
 
 /* *=*=*=*=*=*=*=*=*=* Tablet landscape *=*=*=*=*=*=*=*=*=* */
