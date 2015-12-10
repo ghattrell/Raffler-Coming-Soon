@@ -18,4 +18,3 @@ if($email_address != "") {
 	return true;
 }
 
-?>
