@@ -85,5 +85,3 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["email"])) {
 	header('HTTP/1.1 403 Forbidden');
 	header('Status: 403 Forbidden');
 }
-
-?>
